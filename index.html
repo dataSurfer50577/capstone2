@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Colmar Academy</title>
     <!--<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">-->
-    <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 
     <title>Capstone Colmar Academy</title>
 
@@ -15,10 +15,10 @@
     <!-- Header -->
 
     <header>
-      <div class="container">
+      <div class="container h_desktop">
         <div class="container logo">
           <img src="./resources/images/ic-logo.svg">
-          <span>COLMAR ACADEMY</span> <!-- NO SPACE IN BEWEEN -->
+          <span><b>COLMAR</b>ACADEMY</span> <!-- NO SPACE IN BEWEEN -->
         </div>
 
         <!-- Navigation Bar -->
@@ -38,7 +38,7 @@
     <!-- Main Banner - Section 1 -->
 
     <section id="main_banner" class="container">
-      <div>
+      <div class="article_title">
         <img src="./resources/images/banner.jpg" alt="study group of three, on a bench" />
       </div>
 
@@ -65,7 +65,7 @@
         <div class="container">
           <img src="./resources/images/information-orientation.jpg" alt="aerial view of students walking on campus">
           <div class="side_bar_info">
-            <h4>Orientation date</h4>
+            <h3>Orientation date</h3>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
             <p><a href="#">Read more</a></p> <!-- Normally this would be linked to another site -->
           </div>
@@ -74,7 +74,7 @@
         <div class="container">
           <img src="./resources/images/information-campus.jpg" alt="student communal area in a community for common use">
           <div class="side_bar_info">
-            <h4>Our Campus</h4>
+            <h3>Our Campus</h3>
             <p>Find which campus is close by you</p>
             <p><a href="#">Read more</a></p> <!-- Normally this would be linked to another site -->
           </div>
@@ -83,7 +83,7 @@
         <div class="container">
           <img src="./resources/images/information-guest-lecture.jpg" alt="Photo of Oliver Sacks in beret and spectacles">
           <div class="side_bar_info">
-            <h4>Our guest lecture</h4>
+            <h3>Our guest lecture</h3>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
             <p><a href="#">Read more</a></p> <!-- Normally this would be linked to another site -->
           </div>
@@ -94,7 +94,7 @@
 
     <!-- Campus Courses - Section 4 -->
 
-    <section id="courses">
+    <section id="campus_courses">
       <h2 aria-label="Offered courses">Start learning</h2>
 
       <!-- [Desktop] Courses offered at -i(non #) Academy -->
@@ -103,7 +103,7 @@
         <div class="department-courses">
           <img src="./resources/images/course-software.jpg" alt="software engineering" />
           <div class="course_titles">
-            <h4>Software engineering</h4>
+            <h3>Software engineering</h3>
             <p>COURSES</p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
@@ -112,7 +112,7 @@
         <div class="department-courses">
           <img src="./resources/images/course-computer-art.jpg" alt="computer art courses" />
           <div class="course_titles">
-            <h4>Computer art</h4>
+            <h3>Computer art</h3>
             <p>COURSES</p>
             <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
           </div>
@@ -121,7 +121,7 @@
         <div class="department-courses">
           <img src="./resources/images/course-design.jpg" alt="design courses" />
           <div class="course_titles">
-            <h4>Design</h4>
+            <h3>Design</h3>
             <p>COURSES</p>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
@@ -130,7 +130,7 @@
         <div class="department-courses">
           <img src="./resources/images/course-data.jpg" alt="data courses" />
           <div class="course_titles">
-            <h4>Data</h4>
+            <h3>Data</h3>
             <p>COURSES</p>
             <p>Data Science, Big Data, 5OL, Data Visualization</p>
           </div>
@@ -139,7 +139,7 @@
         <div class="department-courses">
           <img src="./resources/images/course-business.jpg" alt="business courses" />
           <div class="course_titles">
-            <h4>Business</h4>
+            <h3>Business</h3>
             <p>COURSES</p>
             <p>Product Development, Business Development, Startup</p>
           </div>
@@ -148,11 +148,12 @@
         <div class="department-courses">
           <img src="./resources/images/course-marketing.jpg" alt="marketing courses" />
           <div class="course_titles">
-            <h4>Marketing</h4>
+            <h3>Marketing</h3>
             <p>COURSES</p>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
           </div>
         </div>
+      </section>
 
 
       <!-- Video Info and Title - Section 5 -->
@@ -161,7 +162,7 @@
         <h2>Thesis exhibit</h2>
         <div class="container">
           <div class="video"><video src="./resources/videos/thesis.mp4" autoplay loop controls aria-label="video of urban building">Your browser does not support this Video format</video>
-            <h4>Reimagine urban</h4>
+            <h3>Reimagine urban</h3>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accum san urna. Pha sellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.</p>
           </div>
 
@@ -171,33 +172,30 @@
             <div class="container grey">
               <img src="./resources/images/thesis-fisma.jpg" alt="Design and Prototype">
               <div class="side_bar_two_info">
-                <h4>Fisma: Design and Prototype</h4>
+                <h3>Fisma: Design and Prototype</h3>
                 <p>Designer showcase of new prototype product</p>
               </div>
             </div>
 
-            <div class="side_bar_two">
-              <div class="container">
-                <img src="./resources/images/thesis-now-and-then.jpg" alt="Empire State Building">
-                <div class="side_bar_two_info">
-                  <h4>Now and then</h4>
-                  <p>Research study about New York</p>
-                </div>
+            <div class="container">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="Empire State Building">
+              <div class="side_bar_two_info">
+                <h3>Now and then</h3>
+                <p>Research study about New York</p>
               </div>
             </div>
-
           </div>
-        </section>
+
+        </div>
+      </section>
 
         <!-- Footer -->
 
       <footer class="container">
         <h6>&copy; 2016 Colmar Academy. All rights reserved</h6>
         <div class="terms_privacy">
-          <ul>
-            <li>Terms</li>
-            <li>Privacy</li>
-          </ul>
+          <span>Terms</span>
+          <span>Privacy</span>
         </div>
       </footer>
 
